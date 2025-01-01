@@ -1,0 +1,35 @@
+{
+    "type": "ItemTurret",
+    "scaledHealth": 500,
+    "size": 2,
+    "reload": 14.1,
+    "range": 250,
+    "itemCapacity": 40,
+    "acceptsItems": true,
+    "maxAmmo": 160,
+    "inaccuracy": 2.5,
+    "consumes": {
+        "coolant": {
+          "amount": 0.5
+        }
+    },
+    "coolantMultiplier": 5,
+    "ammoTypes": {
+        "sand": {
+          "speed": 16,
+          "ammoMultiplier": 40,
+          "damage": 15,
+          "width": 4,
+          "height": 4,
+          "shootEffect": "shootBig",
+          "smokeEffect": "shootBigSmoke",
+          "lifetime": 60,
+          "sprite": "ammo/sand-ammo"
+        }
+    },
+    "category": "turret",
+    "requirements": [    
+        "copper/120",
+        "lead/80"
+    ]
+}
